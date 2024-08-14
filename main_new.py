@@ -10,6 +10,7 @@ import numpy as np
 import torch
 import pandas as pd
 import whisper
+import setuptools.dist
 import torchaudio
 
 from tqdm.notebook import tqdm
