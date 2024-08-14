@@ -1,3 +1,4 @@
+import streamlit as st
 import whisper 
 import os
 import numpy as np
@@ -10,7 +11,6 @@ import torch
 import pandas as pd
 import whisper
 import torchaudio
-import streamlit as st
 
 from tqdm.notebook import tqdm
 
