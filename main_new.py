@@ -2,10 +2,10 @@ import streamlit as st
 import whisper 
 import os
 import numpy as np
-try:
-    import tensorflow  # required in Colab to avoid protobuf compatibility issues
-except ImportError:
-    pass
+# try:
+#     import tensorflow  # required in Colab to avoid protobuf compatibility issues
+# except ImportError:
+#     pass
 
 import torch
 import pandas as pd
