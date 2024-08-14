@@ -2,7 +2,7 @@ streamlit == 1.13
 git+https://github.com/openai/whisper.git
 jiwer == 2.5.1
 numpy == 1.24
-TensorFlow == 2.10.1
+TensorFlow 
 torch == 1.13.1
 pandas == 1.5.2
 torchaudio 
