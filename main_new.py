@@ -30,7 +30,7 @@ st.subheader("Ku: la boca 👄 ; Sen: la enseñanza 💫.")
 st.write("Esta app transcribe audio a texto utilizando la librería OpenAI Whisper. Fue desarrollada para transcribir las enseñanzas dadas por el [Maestro Zen Soko Pierre Leroux](https://www.sokozen.org/)")
 st.divider()
 option = st.selectbox('Seleccione un modelo para la transcripción. (Se recomienda small)', ('small', 'base', 'tiny',''))
-uploaded_file = st.file_uploader("Suba un archivo de audio", type=["wav", "mp3", "m4a", "ogg"])
+uploaded_file = st.file_uploader("Suba un archivo de audio", type=["wav", "mp3", "m4a", "ogg","wma"])
 # if st.button("Use test file"):
 #     f = open("test.mp3", "rb")
 #     uploaded_file = f.read()
